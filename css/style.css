@@ -1,0 +1,220 @@
+* {margin: 0}
+
+html, body {
+	height: 100%;
+}
+
+#wrapper{
+	float: left;
+	width: 100%;
+	min-height: 100%;
+	background: #f2f2f2;
+	padding-bottom: 90px;
+	box-sizing: border-box;
+    font-family: 'Playball', cursive;
+	font-size: 20px;
+}
+
+header {
+	float: left;
+	width: 100%;
+	height: 140px;
+    padding-top: 10px;
+    padding-left: 10px;
+	background: #99cc99;
+    
+}
+
+h1{
+	color: #333;
+    padding-top: 40px;
+    text-align: center;
+}
+
+nav {
+	float: left;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	background: #cce5cc;
+}
+
+li.navbar-links { 
+	display: inline;
+	margin: 5px;
+	font-size: 22px;
+	color: #e7e7e7;
+}
+
+li.navbar-links a:link { 
+	text-decoration: none;
+	color: #ffffff;
+}
+li.navbar-links a:visited { 
+	text-decoration: none;
+	color: #ffffff;
+}
+li.navbar-links a:hover { 
+	text-decoration: none;
+	color: #eaeaea;
+}
+li.navbar-links a:active { 
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h2, h3{
+    float: none;
+    text-align: left;
+     padding-top: 10px; 
+}
+
+ul{
+	color: #666;
+    
+}
+
+main {
+	float: left;
+	width: 100%;
+	height: auto;
+    padding-left: 10px;
+}
+
+
+.image-certificate{
+    float: none;
+    padding: 15px;
+}
+
+
+p {color: #666;
+    padding: 5px;
+    
+}
+
+.contact-us-link a:link { 
+	text-decoration: none;
+	color: #333;
+}
+.contact-us-link a:visited { 
+	text-decoration: none;
+	color: #333;
+}
+.contact-us-link:hover { 
+	text-decoration: none;
+	color: #333;
+}
+.contact-us-link:active { 
+	text-decoration: none;
+	color: #333;
+}
+
+
+/* DETAILS */
+
+.business-details{
+	float: left;
+	width: 950px;
+	height: auto;
+	text-align: center;
+}
+
+/* CONTACT FORM */
+
+.form-box-top-line{
+	float: left;
+	width: 92%;
+	height: 1px;
+	margin: 20px;
+	margin-left: 4%;
+	margin-right: 4%;
+	background: #345;
+}
+.form-box-outer{
+	float: left;
+	width: 950px;
+	height: auto;
+}
+.form-box-inner{
+	width: 350px;
+	height: auto;
+	margin: 0 auto;
+}
+form{
+	background: none;
+}
+form h2{
+	text-align: center;
+}
+#contact-form-errors{
+	float: left;
+	width: 330px;
+	height: auto;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+}
+#contact-form-errors ul li{
+	color: red;
+}
+.form-area{
+	float: left;
+	width: 330px;
+	height: auto;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+}
+.form-area input[type=text]{
+	width: 287px;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+.form-area textarea{
+	width: 321px;
+	margin: 8px 0;
+}
+.form-area input[type=submit]{
+	width: 110px;
+	padding: 6px 10px;
+	margin: 8px 102px;
+	font-size: 18px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+  
+footer {
+	float: left;
+	width: 100%;
+	height: 90px;
+	background: #ffdb99;
+	margin-top: -90px;
+    padding: 10px;
+}
+
+footer p {
+    color: #4ca64c;
+	font-family: 'Playball', cursive;
+}
